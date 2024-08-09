@@ -1,0 +1,19 @@
+@import '../abstracts/variables';
+.card{
+    border: none;
+    background-color: transparent;
+}
+.card-title {
+    color: $primary-color-text;
+}
+.card__image--content {
+    max-width: 300px;
+    max-height: 300px;
+    overflow: hidden;
+}
+.card__image {
+    transition: all 0.5s ease-in-out;
+    &:hover {
+        transform: scale(1.1);
+    }
+}

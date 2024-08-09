@@ -1,0 +1,21 @@
+@import '../abstracts/variables';
+@import '../abstracts/mixins';
+.navbar {
+    background-color: $bg-main !important;
+}
+.navbar-nav {
+    @include respond-to(small){
+        @include set-display;
+    }
+}
+.active {
+    color: $nav-link-hover !important;
+}
+.nav-link {
+    color: $nav-link-primary;
+    transition: all 0.25s ease;
+    &:hover {
+        color: $nav-link-hover;
+        transform: scale(1.1);
+    }
+}

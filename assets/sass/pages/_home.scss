@@ -1,0 +1,10 @@
+@import '../abstracts/variables';
+@import '../abstracts/mixins';
+.main-content {
+    background-color: $bg-main;
+}
+.section__info {
+    width: 100%;
+    @include set-display;
+    flex-direction: column;
+}
