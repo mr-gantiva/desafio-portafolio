@@ -3,7 +3,7 @@
 Este es un proyecto de portafolio personal desarrollado para mostrar mis habilidades como desarrollador frontend. El sitio incluye secciones sobre mis habilidades, proyectos y una forma de contacto.
 
 ## Demo
-Puedes ver la página en vivo aquí: [Blog Frontend con Sass Landing Page](https://mr-gantiva.github.io/blog-frontend-sass/)
+Puedes ver la página en vivo aquí: [Portafolio Landing Page](https://mr-gantiva.github.io/desafio-portafolio/)
 
 ## Tabla de Contenidos
 
